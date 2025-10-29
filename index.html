@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Liberation War Archive — মুক্তিযুদ্ধ আর্কাইভ</title>
+  <meta name="description" content="An online archive preserving documents, interviews and photographs from the Liberation War of Bangladesh." />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="./js/script.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Navigation -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="font-bold text-xl text-green-700">Liberation War Archive</a>
+      <nav class="hidden md:flex gap-6">
+        <a href="index.html" class="hover:text-green-700">Home</a>
+        <a href="documents.html" class="hover:text-green-700">Documents</a>
+        <a href="interviews.html" class="hover:text-green-700">Interviews</a>
+        <a href="gallery.html" class="hover:text-green-700">Gallery</a>
+        <a href="contact.html" class="hover:text-green-700">Contact</a>
+      </nav>
+      <button id="menuBtn" class="md:hidden p-2 border rounded">☰</button>
+    </div>
+    <div id="mobileMenu" class="hidden bg-white border-t flex flex-col md:hidden">
+      <a href="index.html" class="px-4 py-2 hover:bg-green-50">Home</a>
+      <a href="documents.html" class="px-4 py-2 hover:bg-green-50">Documents</a>
+      <a href="interviews.html" class="px-4 py-2 hover:bg-green-50">Interviews</a>
+      <a href="gallery.html" class="px-4 py-2 hover:bg-green-50">Gallery</a>
+      <a href="contact.html" class="px-4 py-2 hover:bg-green-50">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="container mx-auto px-4 py-10 text-center">
+    <h1 class="text-4xl font-bold text-green-800 mb-3">Welcome to the Liberation War Archive</h1>
+    <p class="max-w-2xl mx-auto text-gray-600">Preserving the documents, interviews, and photographs of Bangladesh's Liberation War for future generations. Explore, learn, and contribute to keep the history alive.</p>
+    <div class="mt-6 flex justify-center gap-3">
+      <a href="documents.html" class="px-4 py-2 bg-green-700 text-white rounded">Explore Documents</a>
+      <a href="contact.html" class="px-4 py-2 border rounded">Contribute</a>
+    </div>
+  </section>
+
+  <!-- Featured Section -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-8">
+      Our Main Features
+    </h2>
+    <p class="text-gray-600 mb-12">
+      Reliable agricultural information — all in one place for farmers and enthusiasts.
+    </p>
+
+    <!-- Feature Cards -->
+    <div class="grid gap-8 md:grid-cols-3">
+      
+      <!-- documents -->
+      <div class="bg-green-50 rounded-2xl shadow hover:shadow-lg transition p-6">
+        <img src="./imges/download (1).jpg" alt="Farming Guides" class="w-20 mx-auto mb-4">
+        <h3 class="text-xl font-semibold text-green-800 mb-2">Documents</h3>
+        <p class="text-gray-700 mb-4">
+        View powerful images that captured the struggles and triumphs of 1971
+        </p>
+        <a href="documents.html" class="text-green-700 font-semibold hover:underline">Read More →</a>
+      </div>
+
+      <!-- Crop interviews -->
+      <div class="bg-green-50 rounded-2xl shadow hover:shadow-lg transition p-6">
+        <img src="./imges/download.jpg" alt="Crop Details" class="w-20 mx-auto mb-4">
+        <h3 class="text-xl font-semibold text-green-800 mb-2">Interviews</h3>
+        <p class="text-gray-700 mb-4">
+        Listen to personal testimonies from those who lived through the war.
+        </p>
+        <a href="interviews.html" class="text-green-700 font-semibold hover:underline">Read More →</a>
+      </div>
+
+      <!-- Pest gallery -->
+      <div class="bg-green-50 rounded-2xl shadow hover:shadow-lg transition p-6">
+        <img src="assets/images/pest-control.webp" alt="Pest Control" class="w-20 mx-auto mb-4">
+        <h3 class="text-xl font-semibold text-green-800 mb-2">Photographs</h3>
+        <p class="text-gray-700 mb-4">
+          View powerful images that captured the struggles and triumphs of 1971
+        </p>
+        <a href="gallery.html" class="text-green-700 font-semibold hover:underline">Read More →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t py-6 text-center text-sm text-gray-600">
+    © 2025 Liberation War Archive. All rights reserved.
+  </footer>
+</body>
+</html>
